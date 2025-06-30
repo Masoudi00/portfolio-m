@@ -1,14 +1,12 @@
 {
+  "name": "vcard-personal-portfolio",
+  "version": "1.0.0",
+  "description": "Personal portfolio site",
   "homepage": "https://masoudi00.github.io/portfolio-m/",
-
+  "scripts": {
+    "deploy": "gh-pages -d ."
+  },
   "devDependencies": {
     "gh-pages": "^6.3.0"
   }
-  ,
-
-  "scripts": {
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d build"
-}
-
 }
